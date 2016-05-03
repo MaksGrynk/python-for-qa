@@ -63,3 +63,8 @@ print """
 """
 
 # Print unique elements from any given list or tuple.
+list1 = [1, 'guitar', 'microphone', 2, 100, 'piano', 100, 'piano']
+list2 = (1, 'guitar', 'microphone', 2, 100, 'piano', 100, 'piano')
+
+print set(list1)
+print set(list2)
