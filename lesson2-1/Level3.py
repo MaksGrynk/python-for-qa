@@ -8,7 +8,6 @@ values from the input tuple;
 '''
 
 q =  5432,'postgresql'
-env = ('staging', 'prod')
 prod_cred = 'admin', '12345'
 hosts = 'semantic', 'semantic.amazonaws-prod.com'
 #    str = "{dialect}://{user name}:{password}@{host}:{port}/{database name}"
