@@ -7,12 +7,10 @@ values from the input tuple;
 {dialect}://{user name}:{password}@{host}:{port}/{database name}
 '''
 
-q =  5432,'postgresql'
-prod_cred = 'admin', '12345'
-hosts = 'semantic', 'semantic.amazonaws-prod.com'
+keys = 'semantic','semantic.amazonaws-prod.com','admin','123456','5432','postgresql','root'
 #    str = "{dialect}://{user name}:{password}@{host}:{port}/{database name}"
-print "prod_config connection string : ", '{}://{}:{}@{}:{}/{}'.format('D',prod_cred[0],prod_cred[1],q[0],hosts[0],q[1])
-print "stg_config connection string : ", '{}://{}:{}@{}:{}/{}'.format('D',prod_cred[0],'root',q[0],hosts[1],q[1])
+prod_con_str = '{0}://{1}:{2}@{3}:{4}/{5}'.format(keys[5],keys[2],keys[3],keys[1],keys[4],keys[0])
+print (prod_con_str)
 
 
 
