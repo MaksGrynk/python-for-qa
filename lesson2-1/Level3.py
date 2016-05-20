@@ -6,13 +6,17 @@ values from the input tuple;
  - for prod_config and staging_config print connection strings in the following format
 {dialect}://{user name}:{password}@{host}:{port}/{database name}
 '''
+values = {
+        'dialect':'dialect',
+        'host':'semantic.amazonaws-prod.com',
+        'port':5432,
+        'database name':'postgresql',
+        'user name':'admin',
+        'password':'12345'}
 
-keys = ('semantic','semantic.amazonaws-prod.com','admin','123456','5432','dialect','root','postgresql')
-
-prod_con_str = '{0}://{1}:{2}@{3}:{4}/{5}'.format(keys[5],keys[2],keys[3],keys[1],keys[4],keys[7])
-stg_con_str = '{0}://{1}:{2}@{3}:{4}/{5}'.format(keys[5],keys[2],keys[6],keys[0],keys[4],keys[7])
-print prod_con_str
-print stg_con_str
-
-
-
+prod_con_str = '{0}://{1}:{2}@{3}:{4}/{5}'.format(values['dialect'], values['user name'], values['password'],values['host'], values['port'], values['database name'])
+print "Prod str :", prod_con_str
+values['host2'] = 'semantic'
+values['password2'] = 'root'
+prod_con_str = '{0}://{1}:{2}@{3}:{4}/{5}'.format(values['dialect'], values['user name'], values['password2'],values['host2'], values['port'], values['database name'])
+print "Stg str :", prod_con_str
