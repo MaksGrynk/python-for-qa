@@ -8,6 +8,14 @@ Write a function that takes a list and returns a new list that contains all the 
 [1, 2, 3, 4, 4, 6, 2] -> [1, 3, 6]
 
 '''
+# Write a function which takes a string and returns its first 10 words concatenated with the last 10 characters.
+def lines():
+    str_end = strin[-1::-1]
+    print strin[0:10]+str_end[0:10]
+lines()
+
+
+
 
 # a function which takes a string and returns all words concatenated with the last 7 characters
 def lens():
