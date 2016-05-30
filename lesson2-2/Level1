@@ -31,7 +31,15 @@ rem_dublic()
 #################################################
 Write a function that takes a comma-separated string and returns the last element (separated by the last comma) or the entire string, if there is no comma in it.
 
-
+def endstring():
+    if str3.find(str4) > 0:
+        ite = str3.rfind(str4)
+        for g in str4:
+            if g == str4:
+                print "Only end of string after '' : ", str3[ite:]
+    else:
+        print "Whole string : ", str3
+endstring()
 
 
 #################################################
