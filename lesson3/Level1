@@ -1,11 +1,11 @@
 '''
-Write a program to generate list with all numbers divisible by 2 and 3 between 1 and 10000 using two approaches:
+1 Write a program to generate list with all numbers divisible by 2 and 3 between 1 and 10000 using two approaches:
 
-list comprehension
-filter function
-Print a number of sentences in a file alice_in_wonderland.txt (a sentence shall end in either a dot . or a tripple-dot ...)
+  * list comprehension
+  * filter function
+2 Print a number of sentences in a file alice_in_wonderland.txt (a sentence shall end in either a dot . or a tripple-dot ...)
 
-Write a script to convert strings to date objects. Input list:
+3 Write a script to convert strings to date objects. Input list:
 
 11 Jan 2016
 4 April 2011
