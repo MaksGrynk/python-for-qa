@@ -1,0 +1,14 @@
+'''
+We need to decrease issues count and priority in Python for QA - bugs list - Sheet1.csv. Write a program to decrease each issue priority to one level (critical -> high, high -> medium, medium -> low), issues that have low level now should be removed. Save result into new CSV file.
+
+Write a script to automatically generate directories and files (empty 6 files with names task*.py where * is task number between 1 and 6) structure for python-for-qa course. Result should look the following way:
+
+python-for-qa
+lesson1
+task1.py
+...
+task6.py
+lesson2
+
+
+'''
