@@ -1,0 +1,9 @@
+'''
+1 Transform course.xml to HTML:
+
+ * tag name -> <title>;
+ * modules -> <article> in <body> with <h1> for module name;
+ * examples -> <ul> and <li>;
+2 Having data file with web site clients clients.json, find clients who don't have access to web service (site uses Basic Authentication).
+
+'''

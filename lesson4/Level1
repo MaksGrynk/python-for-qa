@@ -1,0 +1,7 @@
+'''
+1 Write a function to get product price from web page for Deshevshe site.Handle the case when a product is out of stock.
+2 Please change ownership for all issues in bugs.json to 'qa5'. Save result to bugs_new.json. Use json loads and dumps methods.
+3 Write a script to parse habraharb_all.xml and print each article's title, author and all categories.
+
+
+'''
