@@ -1,15 +1,6 @@
 # 3 Write a function that returns dictionary where keys are even numbers between 1 and n and values are keys in square, by default n = 100.
-
-dev_res = []
-for fe in xrange(1, 100):
-    if fe%3==0 and fe%2==0:
-        dev_res.append(fe)
-print (dev_res)
-
-# filter function
-my_list = xrange(1, 100)
-result = list(filter(lambda x: (x % 2 == 0) and (x % 3 == 0), my_list))
-print(result)
+dict_res = lambda val: {key:key ** 2 for key in xrange(1, val+1)}
+print "square dict  " , dict_res(10)
 
 # ----------------------------------------
 # 1 Write program to evaluate (a or not b) and (c or not a) expression for boolean varibles a, b, c showing result for all possible variables combinations.
